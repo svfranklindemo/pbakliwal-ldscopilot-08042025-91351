@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/pbakliwal/lorealparis/:/",
+      "/content/pbakliwal/lorealparis/configuration:/.helix/config.json",
+      "/content/pbakliwal/lorealparis/metadata:/metadata.json",
+      "/content/pbakliwal/lorealparis/configs:/configs.json",
+      "/content/pbakliwal/lorealparis/configs-stage:/configs-stage.json",
+      "/content/pbakliwal/lorealparis/configs-dev:/configs-dev.json",
+      "/content/pbakliwal/lorealparis/redirects:/redirects.json",
+      "/content/pbakliwal/lorealparis/placeholders:/placeholders.json",
+      "/content/pbakliwal/lorealparis/products/recommended-products:/products/recommended-products.json",
+      "/content/pbakliwal/lorealparis/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/pbakliwal/lorealparis/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/pbakliwal/lorealparis",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
